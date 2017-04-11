@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">The 80\'s Music Quiz</string>
     <string name="question1">1. What is Sting\'s real name ?</string>
-    <string name="question2">2. Who was Queen\'s lead singer ?</string>
-    <string name="question3">3. They were Genesis...</string>
+    <string name="question2">2. They were Genesis :</string>
+    <string name="question3">3. For Europe, It\'s The Final...</string>
+    <string name="question4">4. Who was Queen\'s lead singer ?</string>
+    <string name="question5">5. Prince released in 1982 his fifth album. The title is :</string>
 </resources>

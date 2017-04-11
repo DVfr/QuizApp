@@ -35,7 +35,6 @@
                         android:text="Gordon Sumner" />
                 </RadioGroup>
 
-
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -49,6 +48,69 @@
             <TextView
                 style="@style/questionStyle"
                 android:text="@string/question2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    style="@style/imageToTheLeft"
+                    android:src="@drawable/genesis" />
+
+                <RadioGroup style="@style/radioToTheRight">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tony Banks" />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Elton John" />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Phil Collins" />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mike Rutherford" />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="George Michael" />
+                </RadioGroup>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout style="@style/boxStyle1">
+
+            <TextView
+                style="@style/questionStyle"
+                android:text="@string/question3" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Write your answer here" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/europe" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/boxStyle4">
+
+            <TextView
+                style="@style/questionStyle"
+                android:text="@string/question4" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -76,8 +138,6 @@
                         style="@style/buttonStyle"
                         android:text="Roger Taylor" />
                 </RadioGroup>
-
-
             </LinearLayout>
         </LinearLayout>
 
@@ -85,56 +145,35 @@
 
             <TextView
                 style="@style/questionStyle"
-                android:text="@string/question3" />
+                android:text="@string/question5" />
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:layout_height="match_parent">
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        style="@style/buttonStyle"
+                        android:text="1982" />
+
+                    <RadioButton
+                        style="@style/buttonStyle"
+                        android:text="Sexcrime (1984)" />
+
+                    <RadioButton
+                        style="@style/buttonStyle"
+                        android:text="1999" />
+                </RadioGroup>
+
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:src="@drawable/genesis" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <CheckBox
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Phil Collins" />
-
-                    <CheckBox
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Phil Collins" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <CheckBox
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Phil Collins" />
-
-                    <CheckBox
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Phil Collins" />
-
-
-                </LinearLayout>
-
-
+                    android:src="@drawable/prince" />
             </LinearLayout>
         </LinearLayout>
-
-
     </LinearLayout>
-
-
 </ScrollView>
