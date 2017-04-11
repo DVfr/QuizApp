@@ -8,11 +8,41 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="questionStyle">
-        <item name="android:layout_marginLeft">16dp</item>
-        <item name="android:layout_marginRight">16dp</item>
-        <item name="android:layout_marginTop">16dp</item>
+    <style name="boxStyle1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#ffffff</item>
         <item name="android:orientation">vertical</item>
+        <item name="android:padding">24dp</item>
+    </style>
+
+    <style name="questionStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="boxStyle2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#F6F9FE</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">24dp</item>
+    </style>
+
+    <style name="imageToTheLeft">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">2</item>
+    </style>
+
+    <style name="radioToTheRight">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:layout_marginLeft">24dp</item>
     </style>
 
     <style name="buttonStyle">

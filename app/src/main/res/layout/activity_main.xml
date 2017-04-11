@@ -6,29 +6,17 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        style="@style/questionStyle">
+        android:orientation="vertical">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="18dp">
+        <LinearLayout style="@style/boxStyle1">
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/question1"
-                android:textColor="@color/colorPrimaryDark"
-                android:textSize="20sp" />
-        </LinearLayout>
+                style="@style/questionStyle"
+                android:text="@string/question1" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <!--<LinearLayout-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:orientation="vertical">-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
                 <RadioGroup
                     android:layout_width="wrap_content"
@@ -36,31 +24,117 @@
 
                     <RadioButton
                         style="@style/buttonStyle"
-                        android:text="Gordon Shumway"/>
+                        android:text="Gordon Shumway" />
 
                     <RadioButton
                         style="@style/buttonStyle"
-                        android:text="Gordon Ramsey"/>
+                        android:text="Gordon Ramsey" />
 
                     <RadioButton
                         style="@style/buttonStyle"
-                        android:text="Gordon Sumner"/>
-
+                        android:text="Gordon Sumner" />
                 </RadioGroup>
-            <!--</LinearLayout>-->
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:src="@drawable/sting"
-                android:gravity="end"/>
 
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/sting" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout style="@style/boxStyle2">
+
+            <TextView
+                style="@style/questionStyle"
+                android:text="@string/question2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    style="@style/imageToTheLeft"
+                    android:src="@drawable/queen" />
+
+                <RadioGroup style="@style/radioToTheRight">
+
+                    <RadioButton
+                        style="@style/buttonStyle"
+                        android:text="Brian May" />
+
+                    <RadioButton
+                        style="@style/buttonStyle"
+                        android:text="Freddie Mercury" />
+
+                    <RadioButton
+                        style="@style/buttonStyle"
+                        android:text="John Deacon" />
+
+                    <RadioButton
+                        style="@style/buttonStyle"
+                        android:text="Roger Taylor" />
+                </RadioGroup>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout style="@style/boxStyle1">
+
+            <TextView
+                style="@style/questionStyle"
+                android:text="@string/question3" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/genesis" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Phil Collins" />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Phil Collins" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Phil Collins" />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Phil Collins" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
         </LinearLayout>
 
 
-
     </LinearLayout>
-
 
 
 </ScrollView>
