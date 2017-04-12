@@ -3,10 +3,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+    <LinearLayout style="@style/globalStyle">
+
+        <TextView
+            style="@style/titleStyle"
+            android:text="@string/title" />
 
         <LinearLayout style="@style/boxStyle1">
 
@@ -24,22 +25,21 @@
 
                     <RadioButton
                         style="@style/buttonStyle"
-                        android:text="Gordon Shumway" />
+                        android:text="@string/question1Radio1" />
 
                     <RadioButton
                         style="@style/buttonStyle"
-                        android:text="Gordon Ramsey" />
+                        android:text="@string/question1Radio2" />
 
                     <RadioButton
                         style="@style/buttonStyle"
-                        android:text="Gordon Sumner" />
+                        android:text="@string/question1Radio3" />
                 </RadioGroup>
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:src="@drawable/sting" />
-
             </LinearLayout>
         </LinearLayout>
 
@@ -62,27 +62,27 @@
                     <CheckBox
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Tony Banks" />
+                        android:text="@string/question2CheckBox1" />
 
                     <CheckBox
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Elton John" />
+                        android:text="@string/question2CheckBox2" />
 
                     <CheckBox
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Phil Collins" />
+                        android:text="@string/question2CheckBox3" />
 
                     <CheckBox
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Mike Rutherford" />
+                        android:text="@string/question2CheckBox4" />
 
                     <CheckBox
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="George Michael" />
+                        android:text="@string/question2CheckBox5" />
                 </RadioGroup>
 
             </LinearLayout>
@@ -97,7 +97,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Write your answer here" />
+                android:hint="@string/question3Hint" />
 
             <ImageView
                 android:layout_width="match_parent"
@@ -124,19 +124,19 @@
 
                     <RadioButton
                         style="@style/buttonStyle"
-                        android:text="Brian May" />
+                        android:text="@string/question4Radio1" />
 
                     <RadioButton
                         style="@style/buttonStyle"
-                        android:text="Freddie Mercury" />
+                        android:text="@string/question4Radio2" />
 
                     <RadioButton
                         style="@style/buttonStyle"
-                        android:text="John Deacon" />
+                        android:text="@string/question4Radio3" />
 
                     <RadioButton
                         style="@style/buttonStyle"
-                        android:text="Roger Taylor" />
+                        android:text="@string/question4Radio4" />
                 </RadioGroup>
             </LinearLayout>
         </LinearLayout>
@@ -157,17 +157,16 @@
 
                     <RadioButton
                         style="@style/buttonStyle"
-                        android:text="1982" />
+                        android:text="@string/question5Radio1" />
 
                     <RadioButton
                         style="@style/buttonStyle"
-                        android:text="Sexcrime (1984)" />
+                        android:text="@string/question5Radio2" />
 
                     <RadioButton
                         style="@style/buttonStyle"
-                        android:text="1999" />
+                        android:text="@string/question5Radio3" />
                 </RadioGroup>
-
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -175,5 +174,14 @@
                     android:src="@drawable/prince" />
             </LinearLayout>
         </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/submitButtonStyle"
+            android:text="@string/submitButton"
+            android:onClick="submitAnswers"/>
+
+
     </LinearLayout>
 </ScrollView>
