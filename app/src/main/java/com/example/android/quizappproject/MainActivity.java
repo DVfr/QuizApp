@@ -62,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
 
     /* Check if the right answer (Countdown) has been selected for Question 3*/
     public void isQ3OK() {
+        answerQ3 = false;
         String rightAnswer = "countdown";
         String text = ((TextView) findViewById(R.id.editTextQuestion3)).getText().toString().toLowerCase();
 
@@ -104,15 +105,26 @@ public class MainActivity extends AppCompatActivity {
         isQ4OK();
         isQ5OK();
 
-        /* Display the score on a toast */
+        /* Display the score on a toast + question id if some answers are wrong */
         if (score == 5) {
-            message = "PERFECT !!";
+            message = getString(R.string.perfectScore);
         } else {
-            message = "Score = " + score + "\nQuestion 1 est: " + answerQ1;
-            message = message + "\nQuestion 2 est: " + answerQ2;
-            message = message + "\nQuestion 3 est: " + answerQ3;
-            message = message + "\nQuestion 4 est: " + answerQ4;
-            message = message + "\nQuestion 5 est: " + answerQ5;
+            message = getString(R.string.yourScore) + score + "/5";
+            if (!answerQ1) {
+                message = message + getString(R.string.wrongAnswer1);
+            }
+            if (!answerQ2) {
+                message = message + getString(R.string.wrongAnswer2);
+            }
+            if (!answerQ3) {
+                message = message + getString(R.string.wrongAnswer3);
+            }
+            if (!answerQ4) {
+                message = message + getString(R.string.wrongAnswer4);
+            }
+            if (!answerQ5) {
+                message = message + getString(R.string.wrongAnswer5);
+            }
         }
 
         Toast toast = Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT);

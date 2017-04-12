@@ -13,15 +13,13 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:orientation">vertical</item>
         <item name="android:padding">24dp</item>
-        <item name="android:background">#f3e5f5</item>
+        <item name="android:background">#E4E4E4</item>
     </style>
 
     <style name="titleStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:gravity">center</item>
-        <item name="android:textSize">36sp</item>
-        <item name="android:textColor">#ff1744</item>
         <item name="android:layout_marginBottom">24dp</item>
     </style>
 

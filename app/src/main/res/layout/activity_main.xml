@@ -5,9 +5,9 @@
 
     <LinearLayout style="@style/globalStyle">
 
-        <TextView
+        <ImageView
             style="@style/titleStyle"
-            android:text="@string/title" />
+            android:src="@drawable/quiztitle"/>
 
         <LinearLayout style="@style/boxStyle1">
 

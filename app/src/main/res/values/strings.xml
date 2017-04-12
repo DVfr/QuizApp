@@ -1,26 +1,34 @@
 <resources>
     <string name="app_name">The 80\'s Music Quiz</string>
-    <string name="title">The 80\'s Music Quiz</string>
-    <string name="question1" translatable="false">1. What is Sting\'s real name ?</string>
-    <string name="question2" translatable="false">2. In the 80\'s they were Genesis:</string>
-    <string name="question3" translatable="false">3. In 1986, for the Swedish band Europe, It\'s The Final&#8230;</string>
-    <string name="question4" translatable="false">4. Who was Queen\'s lead singer ?</string>
-    <string name="question5" translatable="false">5. Prince released in 1982 his fifth album. The title is :</string>
-    <string name="question1Radio1">Gordon Shumway</string>
-    <string name="question1Radio2">Gordon Ramsey</string>
-    <string name="question1Radio3">Gordon Sumner</string>
-    <string name="question2CheckBox1">Tony Banks</string>
-    <string name="question2CheckBox2">Elton John</string>
-    <string name="question2CheckBox3">Phil Collins</string>
-    <string name="question2CheckBox4">Mike Rutherford</string>
-    <string name="question2CheckBox5">George Michael</string>
+    <string name="title" translatable="false">The 80\'s Music Quiz</string>
+    <string name="question1">1. What is Sting\'s real name ?</string>
+    <string name="question2">2. In the 80\'s they were Genesis:</string>
+    <string name="question3">3. In 1986, for the Swedish band Europe, It\'s The Final&#8230;</string>
+    <string name="question4">4. Who was Queen\'s lead singer ?</string>
+    <string name="question5">5. Prince released in 1982 his fifth album. The title is :</string>
+    <string name="question1Radio1" translatable="false">Gordon Shumway</string>
+    <string name="question1Radio2" translatable="false">Gordon Ramsey</string>
+    <string name="question1Radio3" translatable="false">Gordon Sumner</string>
+    <string name="question2CheckBox1" translatable="false">Tony Banks</string>
+    <string name="question2CheckBox2" translatable="false">Elton John</string>
+    <string name="question2CheckBox3" translatable="false">Phil Collins</string>
+    <string name="question2CheckBox4" translatable="false">Mike Rutherford</string>
+    <string name="question2CheckBox5" translatable="false">George Michael</string>
     <string name="question3Hint">Write your answer here</string>
-    <string name="question4Radio1">Brian May</string>
-    <string name="question4Radio2">Freddie Mercury</string>
-    <string name="question4Radio3">John Deacon</string>
-    <string name="question4Radio4">Roger Taylor</string>
-    <string name="question5Radio1">1982</string>
-    <string name="question5Radio2">Sexcrime (1984)</string>
-    <string name="question5Radio3">1999</string>
-    <string name="submitButton" translatable="false">Submit your answers !</string>
+    <string name="question4Radio1" translatable="false">Brian May</string>
+    <string name="question4Radio2" translatable="false">Freddie Mercury</string>
+    <string name="question4Radio3" translatable="false">John Deacon</string>
+    <string name="question4Radio4" translatable="false">Roger Taylor</string>
+    <string name="question5Radio1" translatable="false">1982</string>
+    <string name="question5Radio2" translatable="false">Sexcrime (1984)</string>
+    <string name="question5Radio3" translatable="false">1999</string>
+    <string name="submitButton">Submit your answers !</string>
+    <string name="perfectScore">Your score is 5/5 ! \nPerfect !</string>
+    <string name="yourScore">Your score is&#160;</string>
+    <string name="wrongAnswer1">\nAnswer to question 1 is wrong !</string>
+    <string name="wrongAnswer2">\nAnswer to question 2 is wrong !</string>
+    <string name="wrongAnswer3">\nAnswer to question 3 is wrong !</string>
+    <string name="wrongAnswer4">\nAnswer to question 4 is wrong !</string>
+    <string name="wrongAnswer5">\nAnswer to question 5 is wrong !</string>
+
 </resources>

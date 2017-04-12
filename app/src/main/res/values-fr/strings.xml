@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">The 80\'s Music Quiz</string>
-    <string name="question1" translatable="false">1. Quel est le véritable nom de Sting ?</string>
-    <string name="question2" translatable="false">2. Dans les années 80, Genesis c\'était...</string>
-    <string name="question3" translatable="false">3. En 1986, le titre du groupe suédois Europe est It\'s The Final&#8230;</string>
-    <string name="question4" translatable="false">4. Qui était le chanteur de Queen ?</string>
-    <string name="question5" translatable="false">5. Prince sort en 1982 son 5ème album. Le titre est :</string>
-    <string name="submitButton" translatable="false">Vérification des réponses</string>
+    <string name="question1">1. Quel est le véritable nom de Sting ?</string>
+    <string name="question2">2. Dans les années 80, Genesis c\'était&#8230;</string>
+    <string name="question3">3. En 1986, le titre du groupe suédois Europe est It\'s The Final&#8230;</string>
+    <string name="question4">4. Qui était le chanteur de Queen ?</string>
+    <string name="question5">5. Prince sort en 1982 son 5ème album. Le titre est :</string>
+    <string name="submitButton">Vérification des réponses</string>
+    <string name="perfectScore">Votre score est 5/5 ! C\'est parfait !</string>
+    <string name="question3Hint">Entrez votre réponse ici</string>
+    <string name="wrongAnswer1">\nLa réponse 1 est fausse !</string>
+    <string name="wrongAnswer2">\nLa réponse 2 est fausse !</string>
+    <string name="wrongAnswer3">\nLa réponse 3 est fausse !</string>
+    <string name="wrongAnswer4">\nLa réponse 4 est fausse !</string>
+    <string name="wrongAnswer5">\nLa réponse 5 est fausse !</string>
+    <string name="yourScore">Votre score est&#160;</string>
 </resources>
