@@ -2,8 +2,8 @@
     <string name="app_name">The 80\'s Music Quiz</string>
     <string name="title">The 80\'s Music Quiz</string>
     <string name="question1">1. What is Sting\'s real name ?</string>
-    <string name="question2">2. They were Genesis :</string>
-    <string name="question3">3. For Europe, It\'s The Final...</string>
+    <string name="question2">2. In the 80\'s they were Genesis:</string>
+    <string name="question3">3. In 1986, for the Swedish band Europe, It\'s The Final&#8230;</string>
     <string name="question4">4. Who was Queen\'s lead singer ?</string>
     <string name="question5">5. Prince released in 1982 his fifth album. The title is :</string>
     <string name="question1Radio1">Gordon Shumway</string>
@@ -15,7 +15,7 @@
     <string name="question2CheckBox4">Mike Rutherford</string>
     <string name="question2CheckBox5">George Michael</string>
     <string name="question3Hint">Write your answer here</string>
-    <string name="question4Radio1">Brien May</string>
+    <string name="question4Radio1">Brian May</string>
     <string name="question4Radio2">Freddie Mercury</string>
     <string name="question4Radio3">John Deacon</string>
     <string name="question4Radio4">Roger Taylor</string>

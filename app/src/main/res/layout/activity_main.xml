@@ -20,18 +20,22 @@
                 android:layout_height="match_parent">
 
                 <RadioGroup
+                    android:id="@+id/question1Group"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
                     <RadioButton
+                        android:id="@+id/question1Button1"
                         style="@style/buttonStyle"
                         android:text="@string/question1Radio1" />
 
                     <RadioButton
+                        android:id="@+id/question1Button2"
                         style="@style/buttonStyle"
                         android:text="@string/question1Radio2" />
 
                     <RadioButton
+                        android:id="@+id/question1Button3"
                         style="@style/buttonStyle"
                         android:text="@string/question1Radio3" />
                 </RadioGroup>
@@ -57,33 +61,46 @@
                     style="@style/imageToTheLeft"
                     android:src="@drawable/genesis" />
 
-                <RadioGroup style="@style/radioToTheRight">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
                     <CheckBox
+                        android:id="@+id/TonyBanks"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:checked="false"
                         android:text="@string/question2CheckBox1" />
 
                     <CheckBox
+                        android:id="@+id/EltonJohn"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:checked="false"
                         android:text="@string/question2CheckBox2" />
 
                     <CheckBox
+                        android:id="@+id/PhilCollins"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:checked="false"
                         android:text="@string/question2CheckBox3" />
 
                     <CheckBox
+                        android:id="@+id/MikeRutherford"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:checked="false"
                         android:text="@string/question2CheckBox4" />
 
                     <CheckBox
+                        android:id="@+id/GeorgeMichael"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:checked="false"
                         android:text="@string/question2CheckBox5" />
-                </RadioGroup>
+                </LinearLayout>
 
             </LinearLayout>
         </LinearLayout>
@@ -95,9 +112,11 @@
                 android:text="@string/question3" />
 
             <EditText
+                android:id="@+id/editTextQuestion3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/question3Hint" />
+                android:hint="@string/question3Hint"
+                android:inputType="text" />
 
             <ImageView
                 android:layout_width="match_parent"
@@ -120,21 +139,27 @@
                     style="@style/imageToTheLeft"
                     android:src="@drawable/queen" />
 
-                <RadioGroup style="@style/radioToTheRight">
+                <RadioGroup
+                    android:id="@+id/question4Group"
+                    style="@style/radioToTheRight">
 
                     <RadioButton
+                        android:id="@+id/question4Button1"
                         style="@style/buttonStyle"
                         android:text="@string/question4Radio1" />
 
                     <RadioButton
+                        android:id="@+id/question4Button2"
                         style="@style/buttonStyle"
                         android:text="@string/question4Radio2" />
 
                     <RadioButton
+                        android:id="@+id/question4Button3"
                         style="@style/buttonStyle"
                         android:text="@string/question4Radio3" />
 
                     <RadioButton
+                        android:id="@+id/question4Button4"
                         style="@style/buttonStyle"
                         android:text="@string/question4Radio4" />
                 </RadioGroup>
@@ -152,18 +177,22 @@
                 android:layout_height="match_parent">
 
                 <RadioGroup
+                    android:id="@+id/question5Group"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
                     <RadioButton
+                        android:id="@+id/question5Button1"
                         style="@style/buttonStyle"
                         android:text="@string/question5Radio1" />
 
                     <RadioButton
+                        android:id="@+id/question5Button2"
                         style="@style/buttonStyle"
                         android:text="@string/question5Radio2" />
 
                     <RadioButton
+                        android:id="@+id/question5Button3"
                         style="@style/buttonStyle"
                         android:text="@string/question5Radio3" />
                 </RadioGroup>
@@ -176,11 +205,11 @@
         </LinearLayout>
 
         <Button
+            style="@style/submitButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/submitButtonStyle"
-            android:text="@string/submitButton"
-            android:onClick="submitAnswers"/>
+            android:onClick="submitAnswers"
+            android:text="@string/submitButton" />
 
 
     </LinearLayout>
