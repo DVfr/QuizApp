@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         Boolean checkMR = getCheckBoxState(R.id.MikeRutherford);
         Boolean checkGM = getCheckBoxState(R.id.GeorgeMichael);
 
-        /* check if the right combination has been choose */
+        /* check if the right combination has been chosen */
         if (checkTB && !checkEJ && checkPC && checkMR && !checkGM) {
             answerQ2 = true;
             score = score + 1;
@@ -71,7 +71,6 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-
     /* Check if the right answer (Button2) has been selected for Question 4*/
     public void isQ4OK() {
         answerQ4 = false;
@@ -82,7 +81,6 @@ public class MainActivity extends AppCompatActivity {
             score = score + 1;
         }
     }
-
 
     /* Check if the right answer (Button3) has been selected for Question 5*/
     public void isQ5OK() {
@@ -95,6 +93,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    /* submit the answers when the button is clicked*/
     public void submitAnswers(View view) {
         String message;
         score = 0;
@@ -105,6 +104,7 @@ public class MainActivity extends AppCompatActivity {
         isQ4OK();
         isQ5OK();
 
+        /* Display the score on a toast */
         if (score == 5) {
             message = "PERFECT !!";
         } else {

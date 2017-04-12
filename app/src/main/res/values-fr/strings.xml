@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">The 80\'s Music Quiz</string>
+    <string name="question1" translatable="false">1. Quel est le véritable nom de Sting ?</string>
+    <string name="question2" translatable="false">2. Dans les années 80, Genesis c\'était...</string>
+    <string name="question3" translatable="false">3. En 1986, le titre du groupe suédois Europe est It\'s The Final&#8230;</string>
+    <string name="question4" translatable="false">4. Qui était le chanteur de Queen ?</string>
+    <string name="question5" translatable="false">5. Prince sort en 1982 son 5ème album. Le titre est :</string>
+    <string name="submitButton" translatable="false">Vérification des réponses</string>
+</resources>
